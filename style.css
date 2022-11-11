@@ -1,5 +1,8 @@
-h1 {
-    text-align: center;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
 }
 
 #main {
@@ -25,3 +28,15 @@ button {
 }
 
 
+.todolist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list {
+    list-style: none;
+    background-color: azure;
+    padding: 10px;
+}
