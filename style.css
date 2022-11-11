@@ -28,14 +28,14 @@ button {
 }
 
 
-.todolist {
+#todolist {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.list {
+li {
     list-style: none;
     background-color: azure;
     padding: 10px;
